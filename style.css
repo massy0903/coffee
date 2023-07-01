@@ -31,6 +31,7 @@ h3{
     font-size: 40px;
     border-bottom: solid 6px red;
     display: inline-block;
+    margin-right: 50px;
 }
 
 dl{
@@ -50,7 +51,8 @@ dd{
 
 #div1{
     display: flex;
-    margin: 0 20%;
+    margin: 0 auto;
+    width: 500px;
 }
 
 #div1 h3{
@@ -59,7 +61,8 @@ dd{
 
 #div2-1{
     border-right: solid 1px black;
-    width: 100%;
+    width: 90%;
+    padding-right: 50px;
 }
 
 #div2-2{
@@ -96,7 +99,7 @@ footer{
 
 
 #parallax1{
-    background-image: url("https://github.com/massy0903/coffee/blob/main/coffee%20beans.jpg");
+    background-image: url("coffee beans.jpg");
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
