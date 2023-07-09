@@ -1,0 +1,135 @@
+header{
+    position: relative;
+}
+
+#cafe{
+    width: 100%;
+}
+
+nav{
+    position: absolute;
+    top: 3%;
+    left: 80%;
+}
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 100px;
+}
+
+a{
+    text-decoration: none;
+    margin: 5px;
+    color: white;
+}
+
+h3{
+    font-size: 40px;
+    border-bottom: solid 6px red;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+dl{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+dt{
+    width: 70%;
+    margin: 3%;
+    border-bottom: dotted 1px black;
+}
+dd{
+    width: 1%;
+    margin: 3%;
+}
+
+#div1{
+    display: flex;
+    margin: 0 auto;
+    width: 500px;
+}
+
+#div1 h3{
+    margin-left: 25%;
+}
+
+#div2-1{
+    border-right: solid 1px black;
+    width: 90%;
+    padding-right: 50px;
+}
+
+#div2-2{
+    margin-left: 5%;
+    width: 90%;
+}
+#div3{
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.div-a {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.div-a div{
+    width: 40%;
+}
+
+.store{
+    text-align: center;
+}
+
+footer{
+    font-size: 10%;
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+
+#parallax1{
+    background-image: url("coffee beans.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    padding: 5%;
+}
+
+#parallax2{
+    background-image: url("coffee machine.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    padding: 5%;
+}
+
+#parallax3{
+    background-image: url("coffee cup.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    padding: 5%;
+}
